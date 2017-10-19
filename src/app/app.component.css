@@ -1,0 +1,135 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.logo{
+    margin-left:6.5%;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-contenido{
+    
+  display: flex;
+  flex-direction: column;
+}
+
+.form-contenido> * {
+    width: 100%;
+}
+
+.contenido-left{
+    width: 100%;
+    text-align: left;
+    margin-left:  7.1%;
+    margin-right:  7.2%;
+}
+
+.contenido-right{
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-right:  7.1%;
+    margin-left:  7.2%;
+}
+
+mat-checkbox{
+  width: 136px;
+  height: 24px;
+}
+
+footer{
+    background-color: #373737;
+}
+
+.footer-wrapper{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.ekontent-social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagen-centro{
+    margin: 0 6%;
+}
+
+.eKontentNav{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eKontentNav > a{
+    margin-right: 8.4%;
+    text-decoration: none;
+    font-family: Gotham;
+    font-size: 16px;
+    text-align: center;
+    color: #adadad;
+    margin-top: 35%;
+}
+
+
+.title-contenido{
+    width: 85%;    
+    height: 18%;
+    font-family: GothamBold;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: #373737;
+}
+
+.fondo-contenido{
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.footer-wrapper > hr {
+    width: 30%;
+}
+
+.contacto{
+    font-family: SourceSansPro;
+    font-size: 16px;
+    line-height: 2.13;
+    text-align: center;
+    color: #ffffff;
+}
+
+.creadores{
+    font-family: SourceSansPro;
+    font-size: 14px;
+    line-height: 2.43;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.titulo-creadores{
+    width: 644px;
+}
+
+.contacto > p{
+    margin: 0;
+}
+
+.derechos{
+    font-size: 16px;
+    line-height: 2.13;
+    text-align: center;
+    font-family: SourceSansPro;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #4ac8d9, #9ea5ff);
+}
